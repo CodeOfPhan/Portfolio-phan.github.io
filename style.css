@@ -1,0 +1,87 @@
+/* =======================
+   General Styles
+======================= */
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+/* =======================
+   Navbar
+======================= */
+.navbar {
+  background: #002395;
+}
+.navbar a {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+/* =======================
+   Hero Section
+======================= */
+.hero {
+  background: linear-gradient(rgba(0,35,149,0.6), rgba(0,35,149,0.6)), 
+              url('LINE_ALBUM_จุ๊กกรู่ววว_250825_4.jpg') no-repeat center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+}
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+
+/* =======================
+   Section Titles
+======================= */
+.section-title {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #002395;
+}
+
+/* =======================
+   Portfolio Items
+======================= */
+.portfolio-item {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* =======================
+   Buttons
+======================= */
+.btn-french {
+  background-color: #d72638;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn-french:hover {
+  background-color: #fff;
+  color: #002395;
+  border: 2px solid #002395;
+}
+
+/* =======================
+   Footer
+======================= */
+footer {
+  background: #002395;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
