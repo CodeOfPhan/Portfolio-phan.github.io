@@ -15,11 +15,9 @@ body {
   font-weight: 500;
 }
 
-/* Hero Section */
+/* Hero Section (ไม่มีรูป) */
 .hero {
-  background: linear-gradient(rgba(0,35,149,0.6), rgba(0,35,149,0.6)),
-              url('LINE_ALBUM_จุ๊กกรู่ววว_250825_4.jpg') no-repeat center;
-  background-size: cover;
+  background: linear-gradient(135deg, #002395, #d72638);
   color: #fff;
   text-align: center;
   padding: 120px 20px;
